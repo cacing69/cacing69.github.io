@@ -20,3 +20,10 @@ Sangat menyenangi dunia teknologi, terutama dalam bidang pengolahan data dan _op
   - Jurusan Akuntansi
 - Politenik Negeri Pontianak (2014 - 2017)
   - Diploma 3 : Teknik Informatika
+
+## Social Media
+
+- [Upwork](https://www.upwork.com/freelancers/~01863059718a4c858c) (Ibnul M.)
+- [Github](https://github.com/cacing69) (Cacing69)
+- [Linkedin](https://www.linkedin.com/in/ibnul-mutaki/) (Ibnul Mutaki)
+- [Email](mailto://ibnuul@gmail.com) (mailto://ibnuul@gmail.com)
