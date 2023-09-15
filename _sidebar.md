@@ -1,5 +1,8 @@
-<!-- docs/_sidebar.md -->
 - [README.md](/)
-- [Laravel](laravel.md)
-- [PHP](php.md)
-- [Kontributor](kontributor.md)
+- Catatan
+  - PHP
+    - [001 php](php/001-php.md)
+  - Regex
+    - [001 regex if](regex/001-regex-if.md)
+  - Laravel
+    - [001 laravel](laravel/001-regex-if.md)
