@@ -23,7 +23,7 @@ Sangat menyenangi dunia teknologi, terutama dalam bidang pengolahan data dan _op
 
 ## Social Media
 
-- [Upwork](https://www.upwork.com/freelancers/~01863059718a4c858c) (Ibnul M.)
-- [Github](https://github.com/cacing69) (Cacing69)
-- [Linkedin](https://www.linkedin.com/in/ibnul-mutaki/) (Ibnul Mutaki)
-- [Email](mailto://ibnuul@gmail.com) (ibnuul@gmail.com)
+- [Upwork](https://www.upwork.com/freelancers/~01863059718a4c858c) `Ibnul M.`
+- [Github](https://github.com/cacing69) `@cacing69`
+- [Linkedin](https://www.linkedin.com/in/ibnul-mutaki/) `Ibnul Mutaki``
+- [Email](mailto://ibnuul@gmail.com) `ibnuul@gmail.com`
