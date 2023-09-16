@@ -16,10 +16,19 @@ Sangat menyenangi dunia teknologi, terutama dalam bidang pengolahan data dan _op
 
 ## Pendidikan
 
-- SMK Negeri 1 Jawai Selatan (2011 - 2014)
+- [SMK Negeri 1 Jawai Selatan](https://smkn1jasel.sch.id/) (2011 - 2014)
   - Jurusan Akuntansi
-- Politenik Negeri Pontianak (2014 - 2017)
+- [Politenik Negeri Pontianak](https://polnep.ac.id/) (2014 - 2017)
   - Diploma 3 : Teknik Informatika
+
+## Pengalaman
+
+- [Gencil](https://www.linkedin.com/company/16196070/) <small>(Maret 2018 - Desember 2020 )</small>
+  Full Time RESTful API Programmer
+- [PT. Rekayasa Informatika Distribusi Indonesia](https://www.linkedin.com/company/ptridi/) <small>(Oktober 2017 - April 2023 ) </small>
+  Full Time Programmer
+- [PT. Dua Agung](https://www.linkedin.com/company/pt-dua-agung/mycompany/) <small>(April 2023 - Sekarang)</small>
+  Full Time Programmer
 
 ## Social Media
 
