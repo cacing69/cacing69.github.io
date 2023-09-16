@@ -14,21 +14,23 @@ Berikut adalah sedikit penjelasan dan foto dari beberapa hasil tangkapan layar p
 
 ### Tampilan utama
 
-Form yang akan muncul pertama kali saat aplikasi ini di jalankan adalah form menu utama/home.Pada form tersebut akan ditampilkan jam dan tanggal sekarang serta logo dari IKIP-PGRI Pontianak.
+_Form_ yang akan muncul pertama kali saat aplikasi ini di jalankan adalah _form_ menu utama/_home_.Pada _form_ tersebut akan ditampilkan jam dan tanggal sekarang serta logo dari IKIP-PGRI Pontianak.
 
 ![01](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/01.png "image 01")
 
-
 ### Form print
+
+Merupakan tampilan utama pada aplikasi ini, halaman inilah yang menjadi area kerja bagi pegawai BAUK IKIP-PGRI Pontianak. Dari _form_ ini pegawai akan meminta NIM dari mahasiswa yang akan mencetak bukti setor, lalu memilih dari menu yang sudah disediakan.
+
 ![02](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/02.png "image 02")
 
 ![03](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/03.png "image 03")
 
-![04](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/04.png "image 04")
+![04](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/04.jpg "image 04")
 
 ![05](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/05.png "image 05")
 
-![06](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/06.png "image 06")
+![06](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/06.jpg "image 06")
 
 ![07](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/07.png "image 07")
 
@@ -49,10 +51,6 @@ Form yang akan muncul pertama kali saat aplikasi ini di jalankan adalah form men
 ![15](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/15.png "image 15")
 
 ![16](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/16.png "image 16")
-
-![17](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/17.png "image 17")
-
-![18](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/18.png "image 18")
 
 ## Dokumentasi
 
