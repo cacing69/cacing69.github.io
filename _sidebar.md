@@ -1,6 +1,7 @@
 - [README.md](/)
 - Kontribusi Proyek
   - [IKIP BAUK PGRI PONTIANAK](projects/001-ikip-bauk-pgri-pontianak.md)
+  - [Sistem Presensi Absensi Mahasiswa & Dosen](002-sistem-presensi-absensi-mahasiswa-dan-dosen.md)
 - Catatan
   - PHP
     - [#. bookmarks](php/000-bookmarks.md)
