@@ -6,7 +6,14 @@ Sebuah aplikasi yang dibuat dengan Java (Swing) untuk mencetak struk mahasiswa d
 
 ## Teknologi Yang Digunakan
 
-[Java](https://www.java.com/), [Swing](https://docs.oracle.com/javase%2F7%2Fdocs%2Fapi%2F%2F/javax/swing/package-summary.html), [Microsoft Access](https://www.microsoft.com/id-id/microsoft-365/access), [UCanAccess](https://ucanaccess.sourceforge.net/site.html), [iText PDF](https://itextpdf.com/), [jCalendar](https://toedter.com/jcalendar/), [PDF Renderer](https://github.com/katjas/PDFrenderer), [rs2xml](https://sourceforge.net/projects/finalangelsanddemons/files/rs2xml.jar/download)
+- [Java](https://www.java.com/)
+- [Swing](https://docs.oracle.com/javase%2F7%2Fdocs%2Fapi%2F%2F/javax/swing/package-summary.html)
+- [Microsoft Access](https://www.microsoft.com/id-id/microsoft-365/access)
+- [UCanAccess](https://ucanaccess.sourceforge.net/site.html)
+- [iText PDF](https://itextpdf.com/)
+- [jCalendar](https://toedter.com/jcalendar/)
+- [PDF Renderer](https://github.com/katjas/PDFrenderer)
+- [rs2xml](https://sourceforge.net/projects/finalangelsanddemons/files/rs2xml.jar/download)
 
 ## Tampilan Aplikasi
 

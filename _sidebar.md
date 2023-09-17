@@ -1,12 +1,9 @@
 - [README.md](/)
 - Kontribusi Proyek
   - [IKIP BAUK PGRI PONTIANAK](projects/001-ikip-bauk-pgri-pontianak.md)
-  - [Sistem Presensi Absensi Mahasiswa & Dosen](002-sistem-presensi-absensi-mahasiswa-dan-dosen.md)
+  - [Sistem Presensi Absensi Mahasiswa & Dosen](projects/002-sistem-presensi-absensi-mahasiswa-dan-dosen.md)
 - Catatan
-  - PHP
-    - [#. bookmarks](php/000-bookmarks.md)
-    - [1. php](php/001-php.md)
-  - Regex
-    - [1. regex if](regex/001-regex-if.md)
-  - Laravel
-    - [1. laravel](laravel/001-regex-if.md)
+  - [#Bookmarks](bookmarks.md)
+  - [PHP](php.md)
+  - [Laravel](laravel.md)
+  - [Regex](regex.md)

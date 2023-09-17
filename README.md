@@ -23,9 +23,9 @@ Sangat menyenangi dunia teknologi, terutama dalam bidang pengolahan data dan _op
 
 ## Pengalaman
 
-- [Gencil](https://www.linkedin.com/company/16196070/) <small>(Maret 2018 - Desember 2020 )</small>
+- [Government And SmartCity Landmark](https://www.linkedin.com/company/16196070/) (Gencil) <small>(Maret 2018 - Desember 2020 )</small>
   Full Time RESTful API Programmer
-- [PT. Rekayasa Informatika Distribusi Indonesia](https://www.linkedin.com/company/ptridi/) <small>(Oktober 2017 - April 2023 ) </small>
+- [PT. Rekayasa Informatika Distribusi Indonesia](https://www.linkedin.com/company/ptridi/) (PT. RIDI) <small>(Oktober 2017 - April 2023 ) </small>
   Full Time Programmer
 - [PT. Dua Agung](https://www.linkedin.com/company/pt-dua-agung/mycompany/) <small>(April 2023 - Sekarang)</small>
   Full Time Programmer
