@@ -85,6 +85,10 @@ Form feedback untuk user, berikut adalah tampilannya:
 
 ![doc-03](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/doc-03.png "image 03")
 
-![doc-04](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/doc-04.jpg "image 04")
+<p align="left">
+    <img src="https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/doc-04.jpg" width="500">
+</p>
 
-![doc-05](https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/doc-05.jpg "image 05")
+<p align="left">
+    <img src="https://raw.githubusercontent.com/cacing69/cacing69.github.io/master/media/images/projects/001/doc-05.jpg" width="500">
+</p>
