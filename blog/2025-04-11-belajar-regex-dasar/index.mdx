@@ -1,0 +1,29 @@
+---
+slug: belajar-regex-dasar
+title: Belajar Regex Dasar
+authors: [cacing69]
+tags: [regex]
+date: 2025-04-11
+---
+
+## Regex
+
+**Regex** (atau *Regular Expression* ) adalah sebuah pola pencocokan teks yang digunakan untuk mencari, memvalidasi, atau mengganti bagian dari string berdasarkan pola tertentu. Regex sangat berguna dalam pemrograman dan pengolahan data karena memungkinkan kita untuk menemukan teks yang sesuai dengan kriteria tertentu tanpa harus mengetikkan setiap kemungkinan secara manual.
+
+### Komponen Dasar Regex
+
+1. `Literal Karakter` : Ini adalah karakter biasa yang dicocokkan secara langsung. Misalnya, regex `abc` akan cocok dengan string `"abc"`.
+
+2. `Metakarakter` : Ini adalah simbol-simbol khusus yang memiliki arti tersendiri dalam regex. Beberapa metakarakter umum meliputi:
+
+    - `.`: Cocok dengan karakter apa saja (kecuali newline).
+    - `*`: Mengulang elemen sebelumnya nol kali atau lebih.
+    - `+`: Mengulang elemen sebelumnya satu kali atau lebih.
+    - `?`: Membuat elemen sebelumnya opsional (muncul nol atau satu kali).
+    - `[]`: Mendefinisikan kelas karakter (misalnya [abc] akan cocok dengan salah satu karakter 'a', 'b', atau 'c').
+    - `|`: Operator OR, memilih antara dua pola (contoh: a|b akan cocok dengan 'a' atau 'b').
+    - `^` dan `$`: Simbol ini menandakan awal `(^)` dan akhir `($)` dari sebuah baris atau string.
+
+3. `Kuantifikasi` : Kita bisa mengontrol berapa banyak kecocokan yang diinginkan dengan menggunakan operator seperti `{n}`, `{n,m}` (untuk rentang), dll.
+
+4. `Grup dan Referensi` : Anda dapat mengelompokkan pola bersama-sama menggunakan tanda kurung `()` dan merujuk pada kelompok tersebut nantinya.

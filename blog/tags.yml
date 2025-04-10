@@ -7,3 +7,8 @@ react:
   label: react
   permalink: /react
   description: Catatan tentang react
+
+regex:
+  label: regex
+  permalink: /regex
+  description: Catatan tentang regex
