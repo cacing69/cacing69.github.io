@@ -15,7 +15,9 @@
             <pubDate>Fri, 11 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Regex]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="regex">Regex<a href="https://cacing69.github.io/blog/belajar-regex-dasar#regex" class="hash-link" aria-label="Direct link to Regex" title="Direct link to Regex">​</a></h2>
-<p><strong>Regex</strong> (atau <em>Regular Expression</em> ) adalah sebuah pola pencocokan teks yang digunakan untuk mencari, memvalidasi, atau mengganti bagian dari string berdasarkan pola tertentu. Regex sangat berguna dalam pemrograman dan pengolahan data karena memungkinkan kita untuk menemukan teks yang sesuai dengan kriteria tertentu tanpa harus mengetikkan setiap kemungkinan secara manual.</p>
+<p><strong>Regex</strong> (atau <em>Regular Expression</em> ) adalah sebuah pola pencocokan teks yang digunakan untuk mencari, memvalidasi, atau mengganti bagian dari string berdasarkan pola tertentu.</p>
+<!-- -->
+<p>Regex sangat berguna dalam pemrograman dan pengolahan data karena memungkinkan kita untuk menemukan teks yang sesuai dengan kriteria tertentu tanpa harus mengetikkan setiap kemungkinan secara manual.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="komponen-dasar-regex">Komponen Dasar Regex<a href="https://cacing69.github.io/blog/belajar-regex-dasar#komponen-dasar-regex" class="hash-link" aria-label="Direct link to Komponen Dasar Regex" title="Direct link to Komponen Dasar Regex">​</a></h3>
 <ol>
 <li>
