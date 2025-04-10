@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdiedump=self.webpackChunkdiedump||[]).push([[121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"note","permalink":"/blog/tags/note","description":"Simple random note","count":1}]}')}}]);
