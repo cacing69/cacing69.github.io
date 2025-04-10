@@ -9,17 +9,44 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Belajar React Dasar]]></title>
-            <link>https://cacing69.github.io/blog/belajar-react-dasar</link>
-            <guid>https://cacing69.github.io/blog/belajar-react-dasar</guid>
+            <title><![CDATA[Belajar Regex Dasar]]></title>
+            <link>https://cacing69.github.io/blog/belajar-regex-dasar</link>
+            <guid>https://cacing69.github.io/blog/belajar-regex-dasar</guid>
             <pubDate>Fri, 11 Apr 2025 00:00:00 GMT</pubDate>
-            <category>react</category>
+            <description><![CDATA[Regex]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="regex">Regex<a href="https://cacing69.github.io/blog/belajar-regex-dasar#regex" class="hash-link" aria-label="Direct link to Regex" title="Direct link to Regex">​</a></h2>
+<p><strong>Regex</strong> (atau <em>Regular Expression</em> ) adalah sebuah pola pencocokan teks yang digunakan untuk mencari, memvalidasi, atau mengganti bagian dari string berdasarkan pola tertentu. Regex sangat berguna dalam pemrograman dan pengolahan data karena memungkinkan kita untuk menemukan teks yang sesuai dengan kriteria tertentu tanpa harus mengetikkan setiap kemungkinan secara manual.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="komponen-dasar-regex">Komponen Dasar Regex<a href="https://cacing69.github.io/blog/belajar-regex-dasar#komponen-dasar-regex" class="hash-link" aria-label="Direct link to Komponen Dasar Regex" title="Direct link to Komponen Dasar Regex">​</a></h3>
+<ol>
+<li>
+<p><code>Literal Karakter</code> : Ini adalah karakter biasa yang dicocokkan secara langsung. Misalnya, regex <code>abc</code> akan cocok dengan string <code>"abc"</code>.</p>
+</li>
+<li>
+<p><code>Metakarakter</code> : Ini adalah simbol-simbol khusus yang memiliki arti tersendiri dalam regex. Beberapa metakarakter umum meliputi:</p>
+<ul>
+<li><code>.</code>: Cocok dengan karakter apa saja (kecuali newline).</li>
+<li><code>*</code>: Mengulang elemen sebelumnya nol kali atau lebih.</li>
+<li><code>+</code>: Mengulang elemen sebelumnya satu kali atau lebih.</li>
+<li><code>?</code>: Membuat elemen sebelumnya opsional (muncul nol atau satu kali).</li>
+<li><code>[]</code>: Mendefinisikan kelas karakter (misalnya [abc] akan cocok dengan salah satu karakter 'a', 'b', atau 'c').</li>
+<li><code>|</code>: Operator OR, memilih antara dua pola (contoh: a|b akan cocok dengan 'a' atau 'b').</li>
+<li><code>^</code> dan <code>$</code>: Simbol ini menandakan awal <code>(^)</code> dan akhir <code>($)</code> dari sebuah baris atau string.</li>
+</ul>
+</li>
+<li>
+<p><code>Kuantifikasi</code> : Kita bisa mengontrol berapa banyak kecocokan yang diinginkan dengan menggunakan operator seperti <code>{n}</code>, <code>{n,m}</code> (untuk rentang), dll.</p>
+</li>
+<li>
+<p><code>Grup dan Referensi</code> : Anda dapat mengelompokkan pola bersama-sama menggunakan tanda kurung <code>()</code> dan merujuk pada kelompok tersebut nantinya.</p>
+</li>
+</ol>]]></content:encoded>
+            <category>regex</category>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://cacing69.github.io/blog/welcome</link>
             <guid>https://cacing69.github.io/blog/welcome</guid>
-            <pubDate>Fri, 11 Apr 2025 00:00:00 GMT</pubDate>
+            <pubDate>Thu, 10 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Ini adalah catatan komponen basic]]></description>
             <content:encoded><![CDATA[<p>Ini adalah catatan pertama saya di docusaurus, repo ini akan saya jadikan tempat untuk merangkum hasil temuan saya, baik itu dalam bentuk video, hasil eksperimen, hasil dari rangkuman nonton video, maupun opini tentang sesuatu.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="catatan-bawaan-dari-docusaurus">Catatan bawaan dari docusaurus<a href="https://cacing69.github.io/blog/welcome#catatan-bawaan-dari-docusaurus" class="hash-link" aria-label="Direct link to Catatan bawaan dari docusaurus" title="Direct link to Catatan bawaan dari docusaurus">​</a></h3>

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdiedump=self.webpackChunkdiedump||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Belajar React Dasar","permalink":"/blog/belajar-react-dasar","unlisted":false,"date":"2025-04-11T00:00:00.000Z"},{"title":"Welcome","permalink":"/blog/welcome","unlisted":false,"date":"2025-04-11T00:00:00.000Z"}]}')}}]);
