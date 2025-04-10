@@ -2,3 +2,8 @@ note:
   label: note
   permalink: /note
   description: Simple random note
+
+react:
+  label: react
+  permalink: /react
+  description: Catatan tentang react

@@ -1,24 +1,24 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
   title: 'DieDump',
-  tagline: 'Lets Die & Dump',
+  tagline: 'Catatan tentang pemrograman, komputer, dan hal random tentang teknologi',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://cacing69.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'cacing69', // Usually your GitHub org/user name.
+  projectName: 'cacing69.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -65,12 +65,25 @@ const config: Config = {
   ],
 
   themeConfig: {
+    metadata: [
+      { name: 'keywords', content: 'blog, catatan pribadi, dokumentasi, linux, pemrograman' }, // Kata kunci SEO
+      { property: 'og:title', content: 'DieDump' },
+      { property: 'og:description', content: 'Catatan tentang pemrograman, komputer, dan hal random tentang teknologi' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:url', content: 'https://cacing69.github.io' },
+      { property: 'og:image', content: 'https://github.com/cacing69.png' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:title', content: 'DieDump' },
+      { name: 'twitter:description', content: 'Catatan tentang pemrograman, komputer, dan hal random tentang teknologi' },
+      { name: 'twitter:image', content: 'https://github.com/cacing69.png' },
+      { name: 'google-site-verification', content: 'ilPiLGmLZXF-3yic6A7ZCjCLDqUwy_WQPd6FqrkiThw' },
+    ],
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'DieDump',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'DieDump',
         src: 'img/logo.svg',
       },
       items: [
@@ -80,7 +93,7 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -138,6 +151,7 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+  plugins: []
 };
 
 export default config;

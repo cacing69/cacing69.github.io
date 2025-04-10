@@ -1,11 +1,12 @@
 ---
 slug: welcome
 title: Welcome
+description: Ini adalah catatan komponen basic
 authors: [cacing69]
 tags: [note]
 ---
 
-Ini adalah catatan pertama saya di docu, repo ini akan saya jadikan tempat untuk merangkum hasil temuan saya, baik itu dalam bentuk video, hasil eksperiman, hasil dari rangkuman nonton video, maupun opini tentang sesuatu.
+Ini adalah catatan pertama saya di docusaurus, repo ini akan saya jadikan tempat untuk merangkum hasil temuan saya, baik itu dalam bentuk video, hasil eksperimen, hasil dari rangkuman nonton video, maupun opini tentang sesuatu.
 
 <!-- truncate -->
 
@@ -39,3 +40,9 @@ A blog post folder can be convenient to co-locate blog post images:
 The blog supports tags as well!
 
 **And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+
+Tambahkan plugin `@docusaurus/plugin-sitemap` di `docusaurus.config.js`:
+```javascript
+plugins: [
+  '@docusaurus/plugin-sitemap',
+],
