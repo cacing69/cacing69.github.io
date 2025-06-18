@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'DieDump',
-  tagline: 'Catatan tentang pemrograman, komputer, dan hal random tentang teknologi',
+  title: 'DieDumb',
+  tagline: 'Die Dumb adalah ruang eksperimen pribadi cacing69 aka Ibnul Mutaki. Tempat gagasan mentah diolah tanpa filter, dan kebodohan dirayakan sebagai proses belajar. Baca & tertawalah bersama!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -72,42 +72,47 @@ const config: Config = {
             return items.filter((item) => !item.url.includes('/page/'));
           },
         },
+        gtag: {
+          trackingID: 'G-PS5MR3RY0M',
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
     metadata: [
-      { name: 'keywords', content: 'blog, catatan pribadi, dokumentasi, linux, pemrograman' }, // Kata kunci SEO
-      { property: 'og:title', content: 'DieDump' },
-      { property: 'og:description', content: 'Catatan tentang pemrograman, komputer, dan hal random tentang teknologi' },
+      { name: 'keywords', content: 'blog developer, catatan belajar pemrograman, tutorial Linux, dokumentasi kode, workflow programmer, tips coding, DieDumb blog' }, // Kata kunci SEO
+      { property: 'og:title', content: 'DieDumb' },
+      { property: 'og:description', content: 'Die Dumb adalah ruang eksperimen pribadi cacing69 aka Ibnul Mutaki. Tempat gagasan mentah diolah tanpa filter, dan kebodohan dirayakan sebagai proses belajar. Baca & tertawalah bersama!' },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://cacing69.github.io' },
       { property: 'og:image', content: 'https://github.com/cacing69.png' },
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'DieDump' },
-      { name: 'twitter:description', content: 'Catatan tentang pemrograman, komputer, dan hal random tentang teknologi' },
+      { name: 'twitter:title', content: 'DieDumb' },
+      { name: 'twitter:description', content: 'Die Dumb adalah ruang eksperimen pribadi cacing69 aka Ibnul Mutaki. Tempat gagasan mentah diolah tanpa filter, dan kebodohan dirayakan sebagai proses belajar. Baca & tertawalah bersama!' },
       { name: 'twitter:image', content: 'https://github.com/cacing69.png' },
       { name: 'google-site-verification', content: 'ilPiLGmLZXF-3yic6A7ZCjCLDqUwy_WQPd6FqrkiThw' },
     ],
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'DieDump',
+      title: 'DieDumb',
       logo: {
-        alt: 'DieDump',
+        alt: 'DieDumb',
         src: 'img/logo.svg',
       },
       items: [
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Catatan',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        // { to: '/portofolio', label: 'Portofolio', position: 'right' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/cacing69',
           label: 'GitHub',
           position: 'right',
         },
@@ -115,48 +120,48 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} DieDump, Inc. Built with Docusaurus.`,
+      // links: [
+      //   {
+      //     title: 'Docs',
+      //     items: [
+      //       {
+      //         label: 'Tutorial',
+      //         to: '/docs/intro',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'Community',
+      //     items: [
+      //       {
+      //         label: 'Stack Overflow',
+      //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+      //       },
+      //       {
+      //         label: 'Discord',
+      //         href: 'https://discordapp.com/invite/docusaurus',
+      //       },
+      //       {
+      //         label: 'X',
+      //         href: 'https://x.com/docusaurus',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'More',
+      //     items: [
+      //       {
+      //         label: 'Blog',
+      //         to: '/blog',
+      //       },
+      //       {
+      //         label: 'GitHub',
+      //         href: 'https://github.com/facebook/docusaurus',
+      //       },
+      //     ],
+      //   },
+      // ],
+      copyright: `Copyright © ${new Date().getFullYear()} DieDumb, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
