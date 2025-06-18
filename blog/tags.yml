@@ -6,9 +6,19 @@ note:
 react:
   label: react
   permalink: /react
-  description: Catatan tentang react
+  description: Catatan tentang React
+
+vue:
+  label: vue
+  permalink: /vue
+  description: Catatan tentang Vue.js
+
+app:
+  label: app
+  permalink: /app
+  description: Catatan tentang Aplikasi
 
 regex:
   label: regex
   permalink: /regex
-  description: Catatan tentang regex
+  description: Catatan tentang RegEx
