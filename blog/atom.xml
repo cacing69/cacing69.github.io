@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cacing69.github.io/blog</id>
-    <title>DieDump Blog</title>
+    <title>DieDumb Blog</title>
     <updated>2025-04-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cacing69.github.io/blog"/>
-    <subtitle>DieDump Blog</subtitle>
+    <subtitle>DieDumb Blog</subtitle>
     <icon>https://cacing69.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Belajar RegEx Dasar]]></title>
