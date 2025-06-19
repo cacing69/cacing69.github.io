@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdiedumb=self.webpackChunkdiedumb||[]).push([[121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"regex","permalink":"/blog/tags/regex","description":"Catatan tentang RegEx","count":1},{"label":"note","permalink":"/blog/tags/note","description":"Simple random note","count":1}]}')}}]);

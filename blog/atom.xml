@@ -2,11 +2,69 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cacing69.github.io/blog</id>
     <title>DieDumb Blog</title>
-    <updated>2025-04-11T00:00:00.000Z</updated>
+    <updated>2025-06-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cacing69.github.io/blog"/>
     <subtitle>DieDumb Blog</subtitle>
     <icon>https://cacing69.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Romusha, Bukan Mi Instan, Tapi DSL Rasa Premium]]></title>
+        <id>https://cacing69.github.io/blog/romusha-bukan-mi-instan-tapi-dsl-rasa-premium</id>
+        <link href="https://cacing69.github.io/blog/romusha-bukan-mi-instan-tapi-dsl-rasa-premium"/>
+        <updated>2025-06-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Apa itu Romusha (DSL)?]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="apa-itu-romusha-dsl">Apa itu Romusha (DSL)?<a href="https://cacing69.github.io/blog/romusha-bukan-mi-instan-tapi-dsl-rasa-premium#apa-itu-romusha-dsl" class="hash-link" aria-label="Direct link to Apa itu Romusha (DSL)?" title="Direct link to Apa itu Romusha (DSL)?">​</a></h2>
+<blockquote>
+<p>"Kalau logika bisa ditulis seperti nulis resep — gampang, jelas, dan bisa diwariskan — kenapa harus ribet?"</p>
+</blockquote>
+<p>Bayangkan kamu punya otak kedua yang bisa kamu kasih instruksi, dan dia akan ngerjain semua langkah logika tanpa perlu kamu repot mikir syntax aneh-aneh.
+Nah, itulah Romusha — Domain Specific Language (DSL) berbasis JSON yang sedang kami racik dengan penuh cinta.</p>
+<p>Romusha bukan framework. Bukan bahasa pemrograman baru. Tapi dia semacam "logika yang bisa dibaca siapa aja dan jalan di mana aja".</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tujuannya-apa">Tujuannya Apa?<a href="https://cacing69.github.io/blog/romusha-bukan-mi-instan-tapi-dsl-rasa-premium#tujuannya-apa" class="hash-link" aria-label="Direct link to Tujuannya Apa?" title="Direct link to Tujuannya Apa?">​</a></h2>
+<p>Saya ingin logika bisa ditulis:</p>
+<ul>
+<li>Secara declarative (nggak ribet ngurus if, for, atau nesting)</li>
+<li>Dalam bentuk JSON yang portable (bisa dikirim, disimpan, disuntikkan ke sistem lain)</li>
+<li>Modular kayak Lego — bisa disusun, dipisah, dan disambungin lagi</li>
+<li>Tanpa harus bikin interpreter dari nol</li>
+<li>Bisa jalan di JS, PHP, atau bahkan browser tanpa plugin aneh-aneh</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="contoh-singkat">Contoh Singkat:<a href="https://cacing69.github.io/blog/romusha-bukan-mi-instan-tapi-dsl-rasa-premium#contoh-singkat" class="hash-link" aria-label="Direct link to Contoh Singkat:" title="Direct link to Contoh Singkat:">​</a></h3>
+<div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"steps"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"call"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token property" style="color:#36acaa">"fn"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"fetchUser"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token property" style="color:#36acaa">"args"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token property" style="color:#36acaa">"value"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token property" style="color:#36acaa">"injectAs"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"user"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"call"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token property" style="color:#36acaa">"fn"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"print"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token property" style="color:#36acaa">"args"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token property" style="color:#36acaa">"var"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"user.name"</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
+<p>Bacannya: ambil <code>user</code> dengan ID <code>7</code> → simpan sebagai <code>user</code> → tampilkan <code>user.name</code>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="status-sekarang">Status Sekarang<a href="https://cacing69.github.io/blog/romusha-bukan-mi-instan-tapi-dsl-rasa-premium#status-sekarang" class="hash-link" aria-label="Direct link to Status Sekarang" title="Direct link to Status Sekarang">​</a></h2>
+<p>Romusha masih dalam tahap:</p>
+<ul>
+<li>Rancang bangun struktur DSL (udah jadi, rapi banget!)</li>
+<li>Eksperimen evaluator awal (lagi ngulik di JavaScript dulu)</li>
+<li>Sketsa playground dan CLI (biar kamu bisa main langsung)</li>
+<li>Siap-siap bikin plugin seru (http.get, sum, print, dst.)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rencana-masa-depan">Rencana Masa Depan<a href="https://cacing69.github.io/blog/romusha-bukan-mi-instan-tapi-dsl-rasa-premium#rencana-masa-depan" class="hash-link" aria-label="Direct link to Rencana Masa Depan" title="Direct link to Rencana Masa Depan">​</a></h2>
+<ul>
+<li>Evaluator lintas bahasa</li>
+<li>Dukungan with, pipe, switch, define, repeat, dan teman-temannya</li>
+<li>Skema validator biar bisa auto-check DSL kamu</li>
+<li>Playground web yang bisa klik-run kayak ngetes kode</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="kenapa-namanya-romusha">Kenapa Namanya Romusha?<a href="https://cacing69.github.io/blog/romusha-bukan-mi-instan-tapi-dsl-rasa-premium#kenapa-namanya-romusha" class="hash-link" aria-label="Direct link to Kenapa Namanya Romusha?" title="Direct link to Kenapa Namanya Romusha?">​</a></h3>
+<p>Bukan sembarang pekerja. Romusha siap menjalankan logika yang kamu berikan — tanpa lelah, tanpa protes. Ia bekerja di balik layar, membaca struktur JSON yang kadang dalam, kadang aneh, kadang bercabang lima seperti akar pohon.</p>
+<p>Dia mengurai instruksi, memahami konteks, mengeksekusi satu per satu, dan menjaga alur tetap konsisten. Tidak butuh UI mewah. Tidak minta gaji. Hanya butuh struktur data yang jelas.</p>
+<blockquote>
+<p>Romusha tidak menulis kode. Tapi ia mengeksekusi logika yang kamu tulis — dengan disiplin dan ketekunan seperti pekerja yang mengerti tanggung jawabnya.</p>
+</blockquote>
+<p>Makanya, dia layak menyandang nama Romusha — sang eksekutor logika sejati.</p>
+<p>Spoiler : CTA Mode</p>
+<blockquote>
+<p>Bergabunglah, beri ide, atau cukup amati dan tunggu saya dan orang-orang lain bangun fondasinya. Romusha akan menjadi pekerja logika universal.</p>
+</blockquote>
+<p><a href="https://github.com/cacing69/romusha" target="_blank" rel="noopener noreferrer">Repository Romusha</a></p>]]></content>
+        <author>
+            <name>Ibnul Mutaki</name>
+            <uri>https://github.com/cacing69</uri>
+        </author>
+        <category label="github" term="github"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Belajar RegEx Dasar]]></title>
         <id>https://cacing69.github.io/blog/belajar-regex-dasar</id>
