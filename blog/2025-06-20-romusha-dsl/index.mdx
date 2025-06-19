@@ -1,0 +1,81 @@
+---
+slug: romusha-bukan-mi-instan-tapi-dsl-rasa-premium
+title: Romusha: Bukan Mi Instan, Tapi DSL Rasa Premium
+authors: [cacing69]
+tags: [github]
+date: 2025-06-20
+---
+
+## Apa itu Romusha (DSL)?
+
+> "Kalau logika bisa ditulis seperti nulis resep — gampang, jelas, dan bisa diwariskan — kenapa harus ribet?"
+
+Bayangkan kamu punya otak kedua yang bisa kamu kasih instruksi, dan dia akan ngerjain semua langkah logika tanpa perlu kamu repot mikir syntax aneh-aneh.
+Nah, itulah Romusha — Domain Specific Language (DSL) berbasis JSON yang sedang kami racik dengan penuh cinta.
+
+Romusha bukan framework. Bukan bahasa pemrograman baru. Tapi dia semacam "logika yang bisa dibaca siapa aja dan jalan di mana aja".
+
+## Tujuannya Apa?
+
+Saya ingin logika bisa ditulis:
+
+- Secara declarative (nggak ribet ngurus if, for, atau nesting)
+- Dalam bentuk JSON yang portable (bisa dikirim, disimpan, disuntikkan ke sistem lain)
+- Modular kayak Lego — bisa disusun, dipisah, dan disambungin lagi
+- Tanpa harus bikin interpreter dari nol
+- Bisa jalan di JS, PHP, atau bahkan browser tanpa plugin aneh-aneh
+
+### Contoh Singkat:
+```json
+{
+  "steps": [
+    {
+      "call": {
+        "fn": "fetchUser",
+        "args": [ { "value": 1 } ],
+        "injectAs": "user"
+      }
+    },
+    {
+      "call": {
+        "fn": "print",
+        "args": [ { "var": "user.name" } ]
+      }
+    }
+  ]
+}
+```
+
+Bacannya: ambil `user` dengan ID `7` → simpan sebagai `user` → tampilkan `user.name`.
+
+## Status Sekarang
+
+Romusha masih dalam tahap:
+
+- Rancang bangun struktur DSL (udah jadi, rapi banget!)
+- Eksperimen evaluator awal (lagi ngulik di JavaScript dulu)
+- Sketsa playground dan CLI (biar kamu bisa main langsung)
+- Siap-siap bikin plugin seru (http.get, sum, print, dst.)
+
+## Rencana Masa Depan
+
+- Evaluator lintas bahasa
+- Dukungan with, pipe, switch, define, repeat, dan teman-temannya
+- Skema validator biar bisa auto-check DSL kamu
+- Playground web yang bisa klik-run kayak ngetes kode
+
+### Kenapa Namanya Romusha?
+
+Bukan sembarang pekerja. Romusha siap menjalankan logika yang kamu berikan — tanpa lelah, tanpa protes. Ia bekerja di balik layar, membaca struktur JSON yang kadang dalam, kadang aneh, kadang bercabang lima seperti akar pohon.
+
+Dia mengurai instruksi, memahami konteks, mengeksekusi satu per satu, dan menjaga alur tetap konsisten. Tidak butuh UI mewah. Tidak minta gaji. Hanya butuh struktur data yang jelas.
+
+> Romusha tidak menulis kode. Tapi ia mengeksekusi logika yang kamu tulis — dengan disiplin dan ketekunan seperti pekerja yang mengerti tanggung jawabnya.
+
+Makanya, dia layak menyandang nama Romusha — sang eksekutor logika sejati.
+
+Spoiler : CTA Mode
+
+> Bergabunglah, beri ide, atau cukup amati dan tunggu saya dan orang-orang lain bangun fondasinya. Romusha akan menjadi pekerja logika universal.
+
+[Repository Romusha](https://github.com/cacing69/romusha)

@@ -13,6 +13,11 @@ vue:
   permalink: /vue
   description: Catatan tentang Vue.js
 
+github:
+  label: github
+  permalink: /github
+  description: Catatan tentang Repository Github
+
 app:
   label: app
   permalink: /app
