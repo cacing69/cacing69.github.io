@@ -2,11 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cacing69.github.io/blog</id>
     <title>DieDumb Blog</title>
-    <updated>2025-06-20T00:00:00.000Z</updated>
+    <updated>2025-06-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cacing69.github.io/blog"/>
     <subtitle>DieDumb Blog</subtitle>
     <icon>https://cacing69.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Apa itu Web3, yuk bahas dengan istilah sederhana]]></title>
+        <id>https://cacing69.github.io/blog/apa-itu-web-3-yuk-bahas-dengan-istilah-sederhana</id>
+        <link href="https://cacing69.github.io/blog/apa-itu-web-3-yuk-bahas-dengan-istilah-sederhana"/>
+        <updated>2025-06-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Web Alt]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Web Alt" src="https://cacing69.github.io/assets/images/web3-alt-f70a662018c2bc860891fabed1dca181.png" width="2448" height="1628" class="img_ev3q"></p>
+<p>Well, ini adalah hari pertamaku berkenalan dengan web3, walaupun aku sudah cukup lama bermain didunia pemrograman,
+tapi sungguh, ini hari pertama aku berminat mempelajarinya dan bagaimana itu bekerja.</p>
+<p>Setelah membaca dari beberapa artikel, menonton beberapa video, akhirnya aku dapat sedikit gambaran</p>
+<p>Yuk kita kenalan sama Web3 pakai istilah yang gampang dimengerti!</p>
+<!-- -->
+<p>Bayangin begini:</p>
+<p>Dulu sekali, waktu <strong>Web1</strong> ada, internet itu kayak buku gambar gede. Kita cuma bisa lihat-lihat gambarnya, nggak bisa corat-coret atau nambah gambar baru.
+Cuma bisa baca aja.</p>
+<p>Terus, datanglah <strong>Web2</strong>! Internet jadi kayak buku gambar yang bisa dicoret-coret dan ditempel stiker sama semua orang.
+Kamu bisa nulis cerita di buku itu (kayak nulis di Facebook atau Instagram), bisa nambah foto, bisa nonton video.
+Seru, kan? Tapi, ada satu masalah kecil: buku itu dipegang sama satu atau dua orang dewasa yang udah gede (itu perusahaan raksasa kayak <strong>Google</strong> atau <strong>Facebook</strong> sekarang jadi <strong>Meta</strong>).
+Mereka yang mutusin mana gambar yang boleh ada, mana yang nggak, dan mereka juga tahu semua coretan kamu.</p>
+<p>Nah, sekarang ada <strong>Web3</strong>! Ini kayak buku gambar ajaib. Bukan cuma bisa dicoret-coret sama kamu, tapi kamu juga jadi punya bukunya sedikit!
+Jadi, bukunya nggak dipegang sama satu orang dewasa yang udah gede aja, tapi potongan-potongan bukunya ada di banyak teman-teman lain.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="kenapa-web3-penting">Kenapa Web3 Penting?<a href="https://cacing69.github.io/blog/apa-itu-web-3-yuk-bahas-dengan-istilah-sederhana#kenapa-web3-penting" class="hash-link" aria-label="Direct link to Kenapa Web3 Penting?" title="Direct link to Kenapa Web3 Penting?">​</a></h2>
+<ul>
+<li><strong>Punya Sendiri</strong>: Di <strong>Web3</strong>, gambar-gambar atau ceritamu yang kamu buat itu beneran kamu yang punya. Kalau kamu bikin gambar bagus, gambar itu punya kamu, bukan cuma numpang di buku orang lain. Ini namanya <strong>NFT</strong>! Jadi, kalau kamu punya mainan digital, mainan itu beneran punya kamu, nggak bisa diambil siapa-siapa.</li>
+<li><strong>Lebih Aman</strong>: Karena bukunya ada di banyak teman, kalau satu teman nakal mau nyoret-nyoret gambarmu, teman-teman lain bisa lihat dan bilang "Hei, jangan!" Jadi lebih aman dan nggak gampang diubah-ubah. Ini namanya <strong>blockchain</strong>.</li>
+<li><strong>Nggak Ada Bos</strong>: Di <strong>Web3</strong>, nggak ada satu bos gede yang ngatur semua. Kamu dan teman-temanmu bisa mutusin bareng-bareng mau bikin apa di buku itu. Semua orang punya suara.</li>
+</ul>
+<p>Jadi, intinya, <strong>Web3</strong> itu internet yang bikin kamu lebih punya kuasa atas apa yang kamu lakukan dan miliki di dalamnya.
+Nggak ada lagi orang dewasa yang ngumpulin semua datamu atau ngatur-ngatur kamu. Kamu bisa jadi lebih bebas dan aman main di dunia internet!</p>
+<p>Paham, kan? Anggap aja iya</p>]]></content>
+        <author>
+            <name>Ibnul Mutaki</name>
+            <uri>https://github.com/cacing69</uri>
+        </author>
+        <category label="web3" term="web3"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Romusha, Bukan Mi Instan, Tapi DSL Rasa Premium]]></title>
         <id>https://cacing69.github.io/blog/romusha-bukan-mi-instan-tapi-dsl-rasa-premium</id>
@@ -20,6 +56,7 @@
 <p>Bayangkan kamu punya otak kedua yang bisa kamu kasih instruksi, dan dia akan ngerjain semua langkah logika tanpa perlu kamu repot mikir syntax aneh-aneh.
 Nah, itulah Romusha — Domain Specific Language (DSL) berbasis JSON yang sedang kami racik dengan penuh cinta.</p>
 <p>Romusha bukan framework. Bukan bahasa pemrograman baru. Tapi dia semacam "logika yang bisa dibaca siapa aja dan jalan di mana aja".</p>
+<!-- -->
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="tujuannya-apa">Tujuannya Apa?<a href="https://cacing69.github.io/blog/romusha-bukan-mi-instan-tapi-dsl-rasa-premium#tujuannya-apa" class="hash-link" aria-label="Direct link to Tujuannya Apa?" title="Direct link to Tujuannya Apa?">​</a></h2>
 <p>Saya ingin logika bisa ditulis:</p>
 <ul>
