@@ -20,6 +20,9 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Set locale
+        run: export LANG=C.UTF-8
+
       - name: Build
         run: hugo --minify
 
