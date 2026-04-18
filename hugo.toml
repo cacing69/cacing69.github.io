@@ -1,7 +1,41 @@
 baseURL = "https://cacing69.github.io/"
-locale = "en-us"
 title = "Ibnul Mutaki"
 theme = "risotto"
+
+# Multilingual configuration
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    weight = 1
+    title = "Ibnul Mutaki"
+
+    [languages.en.params]
+      description = "Software Developer & Open Source Enthusiast"
+
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/posts/"
+      weight = 10
+
+  [languages.id]
+    languageCode = "id-ID"
+    languageName = "Indonesia"
+    weight = 2
+    title = "Ibnul Mutaki"
+
+    [languages.id.params]
+      description = "Pengembang Perangkat Lunak & Open Source Enthusiast"
+
+    [[languages.id.menu.main]]
+      identifier = "posts"
+      name = "Artikel"
+      url = "/posts/"
+      weight = 10
 
 # Automatically add content sections to main menu
 sectionPagesMenu = "main"
@@ -36,16 +70,3 @@ url = "mailto:ibnulmutaki@example.com"
 category = "categories"
 tag = "tags"
 series = "series"
-
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 10
-
-  [[menu.main]]
-    identifier = "profile"
-    name = "Profile"
-    url = "/profile/"
-    weight = 20
