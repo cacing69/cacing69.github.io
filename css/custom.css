@@ -1,1 +1,20 @@
-/* Override this file to customise the theme's CSS for your site */
+/* Language Switcher in Header */
+.main-nav__lang {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lang-current {
+  opacity: 1;
+}
+
+.lang-link {
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.lang-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
