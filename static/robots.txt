@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cacing69.github.io/sitemap.xml

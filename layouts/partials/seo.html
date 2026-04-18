@@ -1,0 +1,20 @@
+<!-- SEO Meta Tags -->
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+<meta name="keywords" content="{{ with site.Params.keywords }}{{ . }}{{ end }}">
+<meta name="author" content="{{ with site.Params.author }}{{ . }}{{ end }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}{{ with .Params.images }}{{ . }}{{ end }}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="{{ .Title }}">
+<meta property="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+
+<!-- Canonical URL -->
+{{ if .Permalink }}
+<link rel="canonical" href="{{ .Permalink }}">
+{{ end }}

@@ -2,6 +2,11 @@ baseURL = "https://cacing69.github.io/"
 title = "Ibnul Mutaki"
 theme = "risotto"
 
+# SEO Configuration
+enableRobotsTXT = true
+enableGitInfo = true
+canonifyURLs = true
+
 # Multilingual configuration
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -11,10 +16,12 @@ defaultContentLanguageInSubdir = false
     languageCode = "en-US"
     languageName = "English"
     weight = 1
-    title = "Ibnul Mutaki"
+    title = "Ibnul Mutaki - Software Developer & Open Source Enthusiast"
 
     [languages.en.params]
-      description = "Software Developer & Open Source Enthusiast"
+      description = "Personal blog of Ibnul Mutaki - Software Developer & Open Source Enthusiast. Articles about software development, web technologies, and open source."
+      keywords = ["Ibnul Mutaki", "software developer", "web development", "open source", "blog", "programming", "Hugo", "JavaScript", "TypeScript"]
+      author = "Ibnul Mutaki"
 
     [[languages.en.menu.main]]
       identifier = "posts"
@@ -26,10 +33,12 @@ defaultContentLanguageInSubdir = false
     languageCode = "id-ID"
     languageName = "Indonesia"
     weight = 2
-    title = "Ibnul Mutaki"
+    title = "Ibnul Mutaki - Pengembang Perangkat Lunak"
 
     [languages.id.params]
-      description = "Pengembang Perangkat Lunak & Open Source Enthusiast"
+      description = "Blog pribadi Ibnul Mutaki - Pengembang Perangkat Lunak & Open Source Enthusiast. Artikel tentang pengembangan perangkat lunak, teknologi web, dan open source."
+      keywords = ["Ibnul Mutaki", "pengembang perangkat lunak", "pengembangan web", "open source", "blog", "programming", "Hugo", "JavaScript", "TypeScript"]
+      author = "Ibnul Mutaki"
 
     [[languages.id.menu.main]]
       identifier = "posts"
@@ -70,3 +79,22 @@ url = "mailto:ibnulmutaki@example.com"
 category = "categories"
 tag = "tags"
 series = "series"
+
+# Privacy settings for SEO
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+[privacy.x]
+disabled = false
+enableDNT = true
+
+[privacy.vimeo]
+disabled = false
+simple = true
+
+[services.x]
+disableInlineCSS = true
+
+[services.instagram]
+disableInlineCSS = true
