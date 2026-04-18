@@ -56,7 +56,7 @@ pagerSize = 5
 noindex = false
 
 [params.theme]
-palette = "base16-dark"
+palette = "dracula"
 
 # Sidebar: about/bio
 [params.about]
