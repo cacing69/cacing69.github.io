@@ -1,5 +1,5 @@
 baseURL = "https://cacing69.github.io/"
-title = "Ibnul Mutaki"
+title = "cacing69"
 theme = "risotto"
 
 # SEO Configuration
@@ -14,14 +14,14 @@ defaultContentLanguageInSubdir = false
 [languages]
   [languages.en]
     languageCode = "en-US"
-    languageName = "English"
+    languageName = "en_US"
     weight = 1
-    title = "Ibnul Mutaki - Software Developer & Open Source Enthusiast"
+    title = "cacing69"
 
     [languages.en.params]
-      description = "Personal blog of Ibnul Mutaki - Software Developer & Open Source Enthusiast. Articles about software development, web technologies, and open source."
-      keywords = ["Ibnul Mutaki", "software developer", "web development", "open source", "blog", "programming", "Hugo", "JavaScript", "TypeScript"]
-      author = "Ibnul Mutaki"
+      description = "Personal blog of cacing69 - Software Developer & Open Source Enthusiast. Articles about software development, web technologies, and open source."
+      keywords = ["cacing69", "software developer", "web development", "open source", "blog", "programming", "Hugo", "JavaScript", "TypeScript"]
+      author = "cacing69"
 
     [[languages.en.menu.main]]
       identifier = "posts"
@@ -31,14 +31,14 @@ defaultContentLanguageInSubdir = false
 
   [languages.id]
     languageCode = "id-ID"
-    languageName = "Indonesia"
+    languageName = "id_ID"
     weight = 2
-    title = "Ibnul Mutaki - Pengembang Perangkat Lunak"
+    title = "cacing69"
 
     [languages.id.params]
-      description = "Blog pribadi Ibnul Mutaki - Pengembang Perangkat Lunak & Open Source Enthusiast. Artikel tentang pengembangan perangkat lunak, teknologi web, dan open source."
-      keywords = ["Ibnul Mutaki", "pengembang perangkat lunak", "pengembangan web", "open source", "blog", "programming", "Hugo", "JavaScript", "TypeScript"]
-      author = "Ibnul Mutaki"
+      description = "Blog pribadi cacing69 - Pengembang Perangkat Lunak & Open Source Enthusiast. Artikel tentang pengembangan perangkat lunak, teknologi web, dan open source."
+      keywords = ["cacing69", "pengembang perangkat lunak", "pengembangan web", "open source", "blog", "programming", "Hugo", "JavaScript", "TypeScript"]
+      author = "cacing69"
 
     [[languages.id.menu.main]]
       identifier = "posts"
@@ -73,7 +73,7 @@ url = "https://github.com/cacing69"
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "Email"
-url = "mailto:ibnulmutaki@example.com"
+url = "mailto:ibnull@gmail.com"
 
 [taxonomies]
 category = "categories"

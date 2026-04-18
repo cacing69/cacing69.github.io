@@ -1,0 +1,46 @@
+<div class="lang-switcher">
+  <div class="lang-options">
+    {{ range .Page.AllTranslations }}
+      {{ $translation := . }}
+      {{ range $.Site.Languages }}
+        {{ if eq $translation.Lang .Lang }}
+          {{ if eq $.Page.Lang .Lang }}
+            <span class="lang-current">[{{ .LanguageName }}]</span>
+          {{ else }}
+            <a href="{{ $translation.Permalink }}" class="lang-link" hreflang="{{ .Lang }}">{{ .LanguageName }}</a>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+
+<style>
+.lang-switcher {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.lang-options {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.lang-current {
+  padding: 0.25rem 0.75rem;
+  color: var(--fg);
+}
+
+.lang-link {
+  padding: 0.25rem 0.75rem;
+  opacity: var(--muted);
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.lang-link:hover {
+  opacity: 1;
+  color: var(--link);
+}
+</style>
