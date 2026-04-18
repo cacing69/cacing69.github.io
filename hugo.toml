@@ -62,7 +62,7 @@ palette = "base16-dark"
 [params.about]
 title = "Ibnul Mutaki"
 description = "Software Developer & Open Source Enthusiast"
-logo = "👨‍💻"
+logo = ""
 
 # Sidebar: social links
 [[params.socialLinks]]
